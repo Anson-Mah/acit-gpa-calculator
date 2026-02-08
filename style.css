@@ -37,3 +37,7 @@ caption {
 button, .output_field {
   font-size: 1.25em;
 }
+
+#presets {
+  margin-bottom: 1.5em;
+}

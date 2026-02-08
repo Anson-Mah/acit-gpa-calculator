@@ -104,7 +104,7 @@ function load_classes() {
 			displayJSONData(data);
 		}
 	};
-	xhr.open("GET", `${preset}.json`, true);
+	xhr.open("GET", `json/${preset}.json`, true);
 	xhr.send();
 }
 
