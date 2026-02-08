@@ -629,10 +629,10 @@
 		<div id="other_stuff">
 			<br>
 
-			<!-- <button id="save_classes" onclick="save_classes()">Save Classes</button> -->
-			<!-- <button id="load_classes" onclick="load_classes()">Load Classes</button> -->
+			<!-- <button id="save_classes" onclick="save_classes()">Save Classes</button>
+			<button id="load_classes" onclick="load_classes()">Load Classes</button>
 
-			<!-- <br><br> -->
+			<br><br> -->
 
 			<button id="calculate_gpa_button" onclick="calculate()">Calculate GPA</button>
 
@@ -642,6 +642,18 @@
 				<div class="output_field" id="gpa_output_unweighted">Unweighted GPA: </div>
 				<div class="output_field" id="gpa_output_weighted">Weighted GPA: </div>
 			</div>
+
+			<br>
+
+			<label for="presets">Presets</label>
+			<select name="presets" id="presets" onchange="load_classes()">
+				<option value="-">-</option>
+				<option value="anson_current">Anson Mah (Current)</option>
+				<option value="anson_final">Anson Mah (Predicted Final)</option>
+				<option value="ap_student">All AP Classes</option>
+				<option value="honors_student">All Honors Classes</option>
+				<option value="regular_student">Regular Student</option>
+			</select>
 		</div>
 	</div>
 

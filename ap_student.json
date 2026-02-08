@@ -1,0 +1,212 @@
+{
+	"freshman": [
+		{
+			"course_name": "Academy - Semester 1",
+			"grade": "4",
+			"weight": "1.0"
+		},
+		{
+			"course_name": "Academy - Semester 2",
+			"grade": "4",
+			"weight": "1.0"
+		},
+		{
+			"course_name": "PE / Health - 9th Grade",
+			"grade": "4",
+			"weight": "1.0"
+		},
+		{
+			"course_name": "Honors English I",
+			"grade": "4",
+			"weight": "1.1"
+		},
+		{
+			"course_name": "Honors World History",
+			"grade": "4",
+			"weight": "1.1"
+		},
+		{
+			"course_name": "Honors Geometry",
+			"grade": "4",
+			"weight": "1.1"
+		},
+		{
+			"course_name": "Honors Biology",
+			"grade": "4",
+			"weight": "1.1"
+		},
+		{
+			"course_name": "CP Spanish I",
+			"grade": "4",
+			"weight": "1.0"
+		}
+	],
+	"sophomore": [
+		{
+			"course_name": "Academy - Semester 1",
+			"grade": "4",
+			"weight": "1.0"
+		},
+		{
+			"course_name": "Academy - Semester 2",
+			"grade": "4",
+			"weight": "1.0"
+		},
+		{
+			"course_name": "PE / Health - 10th Grade",
+			"grade": "4",
+			"weight": "1.0"
+		},
+		{
+			"course_name": "AP Seminar",
+			"grade": "4",
+			"weight": "1.2"
+		},
+		{
+			"course_name": "APUSH I",
+			"grade": "4",
+			"weight": "1.1"
+		},
+		{
+			"course_name": "AP Precalculus",
+			"grade": "4",
+			"weight": "1.2"
+		},
+		{
+			"course_name": "Honors Chemistry",
+			"grade": "4",
+			"weight": "1.1"
+		},
+		{
+			"course_name": "Honors Spanish II",
+			"grade": "4",
+			"weight": "1.1"
+		}
+	],
+	"junior": [
+		{
+			"course_name": "Academy - Semester 1",
+			"grade": "4",
+			"weight": "1.0"
+		},
+		{
+			"course_name": "Academy - Semester 2",
+			"grade": "4",
+			"weight": "1.0"
+		},
+		{
+			"course_name": "PE / Health - 11th Grade",
+			"grade": "4",
+			"weight": "1.0"
+		},
+		{
+			"course_name": "AP English Literature & Composition",
+			"grade": "4",
+			"weight": "1.2"
+		},
+		{
+			"course_name": "APUSH II",
+			"grade": "4",
+			"weight": "1.2"
+		},
+		{
+			"course_name": "AP Calculus AB",
+			"grade": "4",
+			"weight": "1.2"
+		},
+		{
+			"course_name": "AP Physics 1",
+			"grade": "4",
+			"weight": "1.2"
+		},
+		{
+			"course_name": "AP Research",
+			"grade": "4",
+			"weight": "1.2"
+		}
+	],
+	"senior": [
+		{
+			"course_name": "Academy - Semester 1",
+			"grade": "4",
+			"weight": "1.0"
+		},
+		{
+			"course_name": "Academy - Semester 2",
+			"grade": "4",
+			"weight": "1.0"
+		},
+		{
+			"course_name": "PE / Health - 12th Grade",
+			"grade": "4",
+			"weight": "1.0"
+		},
+		{
+			"course_name": "AP English Language & Composition",
+			"grade": "4",
+			"weight": "1.2"
+		},
+		{
+			"course_name": "AP Government & Politics",
+			"grade": "4",
+			"weight": "1.2"
+		},
+		{
+			"course_name": "AP Calculus BC",
+			"grade": "4",
+			"weight": "1.2"
+		},
+		{
+			"course_name": "AP Chemistry",
+			"grade": "4",
+			"weight": "1.2"
+		},
+		{
+			"course_name": "AP Statistics",
+			"grade": "4",
+			"weight": "1.2"
+		}
+	],
+	"summer": [
+		{
+			"course_name": "Honors Algebra II",
+			"grade": "4",
+			"weight": "1.1"
+		},
+		{
+			"course_name": "Financial Literacy",
+			"grade": "4",
+			"weight": "1.0"
+		},
+		{
+			"course_name": "Music Appreciation",
+			"grade": "4",
+			"weight": "1.0"
+		},
+		{
+			"course_name": "",
+			"grade": "-",
+			"weight": "-"
+		},
+		{
+			"course_name": "",
+			"grade": "-",
+			"weight": "-"
+		},
+		{
+			"course_name": "",
+			"grade": "-",
+			"weight": "-"
+		},
+		{
+			"course_name": "",
+			"grade": "-",
+			"weight": "-"
+		},
+		{
+			"course_name": "",
+			"grade": "-",
+			"weight": "-"
+		}
+	]
+}

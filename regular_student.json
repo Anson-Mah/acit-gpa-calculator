@@ -1,0 +1,217 @@
+{
+	"freshman": [
+		{
+			"course_name": "Academy - Semester 1",
+			"grade": "4",
+			"weight": "1.0"
+		},
+		{
+			"course_name": "Academy - Semester 2",
+			"grade": "4",
+			"weight": "1.0"
+		},
+		{
+			"course_name": "PE / Health - 9th Grade",
+			"grade": "4",
+			"weight": "1.0"
+		},
+		{
+			"course_name": "CP English I",
+			"grade": "4",
+			"weight": "1.0"
+		},
+		{
+			"course_name": "CP World History",
+			"grade": "4",
+			"weight": "1.0"
+		},
+		{
+			"course_name": "CP Algebra I",
+			"grade": "4",
+			"weight": "1.0"
+		},
+		{
+			"course_name": "CP Biology",
+			"grade": "4",
+			"weight": "1.0"
+		},
+		{
+			"course_name": "CP Spanish I",
+			"grade": "4",
+			"weight": "1.0"
+		}
+	],
+	"sophomore": [
+		{
+			"course_name": "Academy - Semester 1",
+			"grade": "4",
+			"weight": "1.0"
+		},
+		{
+			"course_name": "Academy - Semester 2",
+			"grade": "4",
+			"weight": "1.0"
+		},
+		{
+			"course_name": "PE / Health - 10th Grade",
+			"grade": "4",
+			"weight": "1.0"
+		},
+		{
+			"course_name": "CP English II",
+			"grade": "4",
+			"weight": "1.0"
+		},
+		{
+			"course_name": "CP US History I",
+			"grade": "4",
+			"weight": "1.0"
+		},
+		{
+			"course_name": "CP Algebra II",
+			"grade": "4",
+			"weight": "1.0"
+		},
+		{
+			"course_name": "CP Chemistry",
+			"grade": "4",
+			"weight": "1.0"
+		},
+		{
+			"course_name": "CP Spanish II",
+			"grade": "4",
+			"weight": "1.0"
+		}
+	],
+	"junior": [
+		{
+			"course_name": "Academy - Semester 1",
+			"grade": "4",
+			"weight": "1.0"
+		},
+		{
+			"course_name": "Academy - Semester 2",
+			"grade": "4",
+			"weight": "1.0"
+		},
+		{
+			"course_name": "PE / Health - 11th Grade",
+			"grade": "4",
+			"weight": "1.0"
+		},
+		{
+			"course_name": "CP English III",
+			"grade": "4",
+			"weight": "1.0"
+		},
+		{
+			"course_name": "CP US History II",
+			"grade": "4",
+			"weight": "1.0"
+		},
+		{
+			"course_name": "CP Precalculus",
+			"grade": "4",
+			"weight": "1.0"
+		},
+		{
+			"course_name": "CP Physics 1",
+			"grade": "4",
+			"weight": "1.0"
+		},
+		{
+			"course_name": "Fine Art Requirement",
+			"grade": "4",
+			"weight": "1.0"
+		}
+	],
+	"senior": [
+		{
+			"course_name": "Academy - Semester 1",
+			"grade": "4",
+			"weight": "1.0"
+		},
+		{
+			"course_name": "Academy - Semester 2",
+			"grade": "4",
+			"weight": "1.0"
+		},
+		{
+			"course_name": "PE / Health - 12th Grade",
+			"grade": "4",
+			"weight": "1.0"
+		},
+		{
+			"course_name": "Honors English IV",
+			"grade": "4",
+			"weight": "1.0"
+		},
+		{
+			"course_name": "Financial Literacy",
+			"grade": "4",
+			"weight": "1.0"
+		},
+		{
+			"course_name": "",
+			"grade": "-",
+			"weight": "-"
+		},
+		{
+			"course_name": "",
+			"grade": "-",
+			"weight": "-"
+		},
+		{
+			"course_name": "",
+			"grade": "-",
+			"weight": "-"
+		},
+		{
+			"course_name": "",
+			"grade": "-",
+			"weight": "-"
+		}
+	],
+	"summer": [
+		{
+			"course_name": "",
+			"grade": "-",
+			"weight": "-"
+		},
+		{
+			"course_name": "",
+			"grade": "-",
+			"weight": "-"
+		},
+		{
+			"course_name": "",
+			"grade": "-",
+			"weight": "-"
+		},
+		{
+			"course_name": "",
+			"grade": "-",
+			"weight": "-"
+		},
+		{
+			"course_name": "",
+			"grade": "-",
+			"weight": "-"
+		},
+		{
+			"course_name": "",
+			"grade": "-",
+			"weight": "-"
+		},
+		{
+			"course_name": "",
+			"grade": "-",
+			"weight": "-"
+		},
+		{
+			"course_name": "",
+			"grade": "-",
+			"weight": "-"
+		}
+	]
+}
