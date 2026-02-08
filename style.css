@@ -1,0 +1,39 @@
+table {
+  border-collapse: collapse;
+  margin-top: 1em;
+}
+
+td, th {
+  border: 1px solid black;
+  padding: 6px;
+}
+
+caption {
+  margin-bottom: 1ch;
+  font-size: 20px;
+}
+
+@media (min-width: 1000px) {
+  #input_container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1em;
+    max-width: fit-content;
+  }
+  #other_stuff {
+    margin-top: 2.25em;
+  }
+}
+
+@media (min-width: 1500px) {
+  #input_container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1em;
+    max-width: fit-content;
+  }
+}
+
+button, .output_field {
+  font-size: 1.25em;
+}

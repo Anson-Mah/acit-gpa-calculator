@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ACIT GPA Calculator</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="acit_tricolor.png" type="image/x-icon">
+</head>
+
+<body>
+	<div id="input_container">
+		<table border="1">
+			<caption>Freshman (Grade 9)</caption>
+
+			<tr>
+				<th>Class</th>
+				<th>Grade</th>
+				<th>Weight</th>
+			</tr>
+
+			<tr>
+				<td><input type="text" class="course_name" id="course_0"></td>
+				<td>
+					<select class="grade" name="grade_0" id="grade_0">
+						<div w3-include-html="select_grade.html"></div>
+					</select>
+				</td>
+				<td>
+					<select class="weight" name="weight_0" id="weight_0">
+						<div w3-include-html="select_weight.html"></div>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td><input type="text" class="course_name" id="course_1"></td>
+				<td>
+					<select class="grade" name="grade_1" id="grade_1">
+						<div w3-include-html="select_grade.html"></div>
+					</select>
+				</td>
+				<td>
+					<select class="weight" name="weight_1" id="weight_1">
+						<div w3-include-html="select_weight.html"></div>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td><input type="text" class="course_name" id="course_2"></td>
+				<td>
+					<select class="grade" name="grade_2" id="grade_2">
+						<div w3-include-html="select_grade.html"></div>
+					</select>
+				</td>
+				<td>
+					<select class="weight" name="weight_2" id="weight_2">
+						<div w3-include-html="select_weight.html"></div>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td><input type="text" class="course_name" id="course_3"></td>
+				<td>
+					<select class="grade" name="grade_3" id="grade_3">
+						<div w3-include-html="select_grade.html"></div>
+					</select>
+				</td>
+				<td>
+					<select class="weight" name="weight_3" id="weight_3">
+						<div w3-include-html="select_weight.html"></div>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td><input type="text" class="course_name" id="course_4"></td>
+				<td>
+					<select class="grade" name="grade_4" id="grade_4">
+						<div w3-include-html="select_grade.html"></div>
+					</select>
+				</td>
+				<td>
+					<select class="weight" name="weight_4" id="weight_4">
+						<div w3-include-html="select_weight.html"></div>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td><input type="text" class="course_name" id="course_5"></td>
+				<td>
+					<select class="grade" name="grade_5" id="grade_5">
+						<div w3-include-html="select_grade.html"></div>
+					</select>
+				</td>
+				<td>
+					<select class="weight" name="weight_5" id="weight_5">
+						<div w3-include-html="select_weight.html"></div>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td><input type="text" class="course_name" id="course_6"></td>
+				<td>
+					<select class="grade" name="grade_6" id="grade_6">
+						<div w3-include-html="select_grade.html"></div>
+					</select>
+				</td>
+				<td>
+					<select class="weight" name="weight_6" id="weight_6">
+						<div w3-include-html="select_weight.html"></div>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td><input type="text" class="course_name" id="course_7"></td>
+				<td>
+					<select class="grade" name="grade_7" id="grade_7">
+						<div w3-include-html="select_grade.html"></div>
+					</select>
+				</td>
+				<td>
+					<select class="weight" name="weight_7" id="weight_7">
+						<div w3-include-html="select_weight.html"></div>
+					</select>
+				</td>
+			</tr>
+
+		</table>
+		
+		<table border="1">
+			<caption>Sophomore (Grade 10)</caption>
+
+			<tr>
+				<th>Class</th>
+				<th>Grade</th>
+				<th>Weight</th>
+			</tr>
+
+			<tr>
+				<td><input type='text' class="course_name" id="course_8"></td>
+				<td>
+					<select class='grade' name='grade_8' id='grade_8'>
+						<div w3-include-html='select_grade.html'></div>
+					</select>
+				</td>
+				<td>
+					<select class='weight' name='weight_8' id='weight_8'>
+						<div w3-include-html='select_weight.html'></div>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td><input type='text' class="course_name" id="course_9"></td>
+				<td>
+					<select class='grade' name='grade_9' id='grade_9'>
+						<div w3-include-html='select_grade.html'></div>
+					</select>
+				</td>
+				<td>
+					<select class='weight' name='weight_9' id='weight_9'>
+						<div w3-include-html='select_weight.html'></div>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td><input type='text' class="course_name" id="course_10"></td>
+				<td>
+					<select class='grade' name='grade_10' id='grade_10'>
+						<div w3-include-html='select_grade.html'></div>
+					</select>
+				</td>
+				<td>
+					<select class='weight' name='weight_10' id='weight_10'>
+						<div w3-include-html='select_weight.html'></div>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td><input type='text' class="course_name" id="course_11"></td>
+				<td>
+					<select class='grade' name='grade_11' id='grade_11'>
+						<div w3-include-html='select_grade.html'></div>
+					</select>
+				</td>
+				<td>
+					<select class='weight' name='weight_11' id='weight_11'>
+						<div w3-include-html='select_weight.html'></div>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td><input type='text' class="course_name" id="course_12"></td>
+				<td>
+					<select class='grade' name='grade_12' id='grade_12'>
+						<div w3-include-html='select_grade.html'></div>
+					</select>
+				</td>
+				<td>
+					<select class='weight' name='weight_12' id='weight_12'>
+						<div w3-include-html='select_weight.html'></div>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td><input type='text' class="course_name" id="course_13"></td>
+				<td>
+					<select class='grade' name='grade_13' id='grade_13'>
+						<div w3-include-html='select_grade.html'></div>
+					</select>
+				</td>
+				<td>
+					<select class='weight' name='weight_13' id='weight_13'>
+						<div w3-include-html='select_weight.html'></div>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td><input type='text' class="course_name" id="course_14"></td>
+				<td>
+					<select class='grade' name='grade_14' id='grade_14'>
+						<div w3-include-html='select_grade.html'></div>
+					</select>
+				</td>
+				<td>
+					<select class='weight' name='weight_14' id='weight_14'>
+						<div w3-include-html='select_weight.html'></div>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td><input type='text' class="course_name" id="course_15"></td>
+				<td>
+					<select class='grade' name='grade_15' id='grade_15'>
+						<div w3-include-html='select_grade.html'></div>
+					</select>
+				</td>
+				<td>
+					<select class='weight' name='weight_15' id='weight_15'>
+						<div w3-include-html='select_weight.html'></div>
+					</select>
+				</td>
+			</tr>
+			
+		</table>
+		
+		<table border="1">
+			<caption>Junior (Grade 11)</caption>
+
+			<tr>
+				<th>Class</th>
+				<th>Grade</th>
+				<th>Weight</th>
+			</tr>
+
+			<tr>
+				<td><input type='text' class="course_name" id="course_16"></td>
+				<td>
+					<select class='grade' name='grade_16' id='grade_16'>
+						<div w3-include-html='select_grade.html'></div>
+					</select>
+				</td>
+				<td>
+					<select class='weight' name='weight_16' id='weight_16'>
+						<div w3-include-html='select_weight.html'></div>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td><input type='text' class="course_name" id="course_17"></td>
+				<td>
+					<select class='grade' name='grade_17' id='grade_17'>
+						<div w3-include-html='select_grade.html'></div>
+					</select>
+				</td>
+				<td>
+					<select class='weight' name='weight_17' id='weight_17'>
+						<div w3-include-html='select_weight.html'></div>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td><input type='text' class="course_name" id="course_18"></td>
+				<td>
+					<select class='grade' name='grade_18' id='grade_18'>
+						<div w3-include-html='select_grade.html'></div>
+					</select>
+				</td>
+				<td>
+					<select class='weight' name='weight_18' id='weight_18'>
+						<div w3-include-html='select_weight.html'></div>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td><input type='text' class="course_name" id="course_19"></td>
+				<td>
+					<select class='grade' name='grade_19' id='grade_19'>
+						<div w3-include-html='select_grade.html'></div>
+					</select>
+				</td>
+				<td>
+					<select class='weight' name='weight_19' id='weight_19'>
+						<div w3-include-html='select_weight.html'></div>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td><input type='text' class="course_name" id="course_20"></td>
+				<td>
+					<select class='grade' name='grade_20' id='grade_20'>
+						<div w3-include-html='select_grade.html'></div>
+					</select>
+				</td>
+				<td>
+					<select class='weight' name='weight_20' id='weight_20'>
+						<div w3-include-html='select_weight.html'></div>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td><input type='text' class="course_name" id="course_21"></td>
+				<td>
+					<select class='grade' name='grade_21' id='grade_21'>
+						<div w3-include-html='select_grade.html'></div>
+					</select>
+				</td>
+				<td>
+					<select class='weight' name='weight_21' id='weight_21'>
+						<div w3-include-html='select_weight.html'></div>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td><input type='text' class="course_name" id="course_22"></td>
+				<td>
+					<select class='grade' name='grade_22' id='grade_22'>
+						<div w3-include-html='select_grade.html'></div>
+					</select>
+				</td>
+				<td>
+					<select class='weight' name='weight_22' id='weight_22'>
+						<div w3-include-html='select_weight.html'></div>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td><input type='text' class="course_name" id="course_23"></td>
+				<td>
+					<select class='grade' name='grade_23' id='grade_23'>
+						<div w3-include-html='select_grade.html'></div>
+					</select>
+				</td>
+				<td>
+					<select class='weight' name='weight_23' id='weight_23'>
+						<div w3-include-html='select_weight.html'></div>
+					</select>
+				</td>
+			</tr>
+
+		</table>
+		
+		<table border="1">
+			<caption>Senior (Grade 12)</caption>
+
+			<tr>
+				<th>Class</th>
+				<th>Grade</th>
+				<th>Weight</th>
+			</tr>
+
+			<tr>
+				<td><input type='text' class="course_name" id="course_24"></td>
+				<td>
+					<select class='grade' name='grade_24' id='grade_24'>
+						<div w3-include-html='select_grade.html'></div>
+					</select>
+				</td>
+				<td>
+					<select class='weight' name='weight_24' id='weight_24'>
+						<div w3-include-html='select_weight.html'></div>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td><input type='text' class="course_name" id="course_25"></td>
+				<td>
+					<select class='grade' name='grade_25' id='grade_25'>
+						<div w3-include-html='select_grade.html'></div>
+					</select>
+				</td>
+				<td>
+					<select class='weight' name='weight_25' id='weight_25'>
+						<div w3-include-html='select_weight.html'></div>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td><input type='text' class="course_name" id="course_26"></td>
+				<td>
+					<select class='grade' name='grade_26' id='grade_26'>
+						<div w3-include-html='select_grade.html'></div>
+					</select>
+				</td>
+				<td>
+					<select class='weight' name='weight_26' id='weight_26'>
+						<div w3-include-html='select_weight.html'></div>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td><input type='text' class="course_name" id="course_27"></td>
+				<td>
+					<select class='grade' name='grade_27' id='grade_27'>
+						<div w3-include-html='select_grade.html'></div>
+					</select>
+				</td>
+				<td>
+					<select class='weight' name='weight_27' id='weight_27'>
+						<div w3-include-html='select_weight.html'></div>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td><input type='text' class="course_name" id="course_28"></td>
+				<td>
+					<select class='grade' name='grade_28' id='grade_28'>
+						<div w3-include-html='select_grade.html'></div>
+					</select>
+				</td>
+				<td>
+					<select class='weight' name='weight_28' id='weight_28'>
+						<div w3-include-html='select_weight.html'></div>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td><input type='text' class="course_name" id="course_29"></td>
+				<td>
+					<select class='grade' name='grade_29' id='grade_29'>
+						<div w3-include-html='select_grade.html'></div>
+					</select>
+				</td>
+				<td>
+					<select class='weight' name='weight_29' id='weight_29'>
+						<div w3-include-html='select_weight.html'></div>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td><input type='text' class="course_name" id="course_30"></td>
+				<td>
+					<select class='grade' name='grade_30' id='grade_30'>
+						<div w3-include-html='select_grade.html'></div>
+					</select>
+				</td>
+				<td>
+					<select class='weight' name='weight_30' id='weight_30'>
+						<div w3-include-html='select_weight.html'></div>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td><input type='text' class="course_name" id="course_31"></td>
+				<td>
+					<select class='grade' name='grade_31' id='grade_31'>
+						<div w3-include-html='select_grade.html'></div>
+					</select>
+				</td>
+				<td>
+					<select class='weight' name='weight_31' id='weight_31'>
+						<div w3-include-html='select_weight.html'></div>
+					</select>
+				</td>
+			</tr>
+
+		</table>
+		
+		<table border="1">
+			<caption>Summer Courses</caption>
+
+			<tr>
+				<th>Class</th>
+				<th>Grade</th>
+				<th>Weight</th>
+			</tr>
+
+			<tr>
+				<td><input type='text' class="course_name" id="course_32"></td>
+				<td>
+					<select class='grade' name='grade_32' id='grade_32'>
+						<div w3-include-html='select_grade.html'></div>
+					</select>
+				</td>
+				<td>
+					<select class='weight' name='weight_32' id='weight_32'>
+						<div w3-include-html='select_weight.html'></div>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td><input type='text' class="course_name" id="course_33"></td>
+				<td>
+					<select class='grade' name='grade_33' id='grade_33'>
+						<div w3-include-html='select_grade.html'></div>
+					</select>
+				</td>
+				<td>
+					<select class='weight' name='weight_33' id='weight_33'>
+						<div w3-include-html='select_weight.html'></div>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td><input type='text' class="course_name" id="course_34"></td>
+				<td>
+					<select class='grade' name='grade_34' id='grade_34'>
+						<div w3-include-html='select_grade.html'></div>
+					</select>
+				</td>
+				<td>
+					<select class='weight' name='weight_34' id='weight_34'>
+						<div w3-include-html='select_weight.html'></div>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td><input type='text' class="course_name" id="course_35"></td>
+				<td>
+					<select class='grade' name='grade_35' id='grade_35'>
+						<div w3-include-html='select_grade.html'></div>
+					</select>
+				</td>
+				<td>
+					<select class='weight' name='weight_35' id='weight_35'>
+						<div w3-include-html='select_weight.html'></div>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td><input type='text' class="course_name" id="course_36"></td>
+				<td>
+					<select class='grade' name='grade_36' id='grade_36'>
+						<div w3-include-html='select_grade.html'></div>
+					</select>
+				</td>
+				<td>
+					<select class='weight' name='weight_36' id='weight_36'>
+						<div w3-include-html='select_weight.html'></div>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td><input type='text' class="course_name" id="course_37"></td>
+				<td>
+					<select class='grade' name='grade_37' id='grade_37'>
+						<div w3-include-html='select_grade.html'></div>
+					</select>
+				</td>
+				<td>
+					<select class='weight' name='weight_37' id='weight_37'>
+						<div w3-include-html='select_weight.html'></div>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td><input type='text' class="course_name" id="course_38"></td>
+				<td>
+					<select class='grade' name='grade_38' id='grade_38'>
+						<div w3-include-html='select_grade.html'></div>
+					</select>
+				</td>
+				<td>
+					<select class='weight' name='weight_38' id='weight_38'>
+						<div w3-include-html='select_weight.html'></div>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td><input type='text' class="course_name" id="course_39"></td>
+				<td>
+					<select class='grade' name='grade_39' id='grade_39'>
+						<div w3-include-html='select_grade.html'></div>
+					</select>
+				</td>
+				<td>
+					<select class='weight' name='weight_39' id='weight_39'>
+						<div w3-include-html='select_weight.html'></div>
+					</select>
+				</td>
+			</tr>
+
+		</table>
+
+		<div id="other_stuff">
+			<br>
+
+			<!-- <button id="save_classes" onclick="save_classes()">Save Classes</button> -->
+			<!-- <button id="load_classes" onclick="load_classes()">Load Classes</button> -->
+
+			<!-- <br><br> -->
+
+			<button id="calculate_gpa_button" onclick="calculate()">Calculate GPA</button>
+
+			<br><br>
+
+			<div id="output_field">
+				<div class="output_field" id="gpa_output_unweighted">Unweighted GPA: </div>
+				<div class="output_field" id="gpa_output_weighted">Weighted GPA: </div>
+			</div>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
