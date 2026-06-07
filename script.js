@@ -1,4 +1,4 @@
-// Allows HTML snippets to be resued in multiple HTML files
+// Allows HTML snippets to be reused in multiple HTML files
 // Code directly ripped from W3 Schools
 function includeHTML() {
   var z, i, elmnt, file, xhttp;

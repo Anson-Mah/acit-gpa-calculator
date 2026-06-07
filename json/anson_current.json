@@ -86,7 +86,7 @@
 	"junior": [
 		{
 			"course_name": "AP Physics C",
-			"grade": 3,
+			"grade": 2,
 			"weight": "1.2"
 		},
 		{
@@ -101,7 +101,7 @@
 		},
 		{
 			"course_name": "Data Structures, Algorithms, & Database Design",
-			"grade": "-",
+			"grade": "4",
 			"weight": "1.0"
 		},
 		{
@@ -111,7 +111,7 @@
 		},
 		{
 			"course_name": "APUSH II",
-			"grade": "3",
+			"grade": "4",
 			"weight": "1.2"
 		},
 		{
@@ -179,9 +179,9 @@
 			"weight": "1.2"
 		},
 		{
-			"course_name": "",
+			"course_name": "Financial Literacy",
 			"grade": "-",
-			"weight": "-"
+			"weight": "1.0"
 		},
 		{
 			"course_name": "",
